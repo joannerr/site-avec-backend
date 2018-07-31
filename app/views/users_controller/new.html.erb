@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CREATE ACCOUNT</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
+</head>
+<body>
+	<h1>Nous allons entrer tes informations: </h1>
+
+	<form action="/inscription" method="post">
+		<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+		Username:
+		<input type="text" name="username"> <br>
+		Bio:
+		<textarea name="bio"></textarea> <br>
+		<input type="submit" name="Envoyer"> 
+	</form>
+
+</body>
+</html>
