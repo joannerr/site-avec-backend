@@ -1,15 +1,15 @@
-# Exo de LUNDI avec BACK-END, BASE DE DONNEE
-# https://test1appigwen.herokuapp.com/
-
 # README
+
+### Appli je-me-presenteJe-me-présente
+
+https://app-backend-site.herokuapp.com/
 
 ### Version ruby
 
 ruby '2.5.1'
 
+### Installation
 
 ```
 $ heroku open
 ```
-
-Fait par CASSAND Gwendoline
