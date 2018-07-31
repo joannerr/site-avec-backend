@@ -1,6 +1,6 @@
 # README
 
-### Appli je-me-presenteJe-me-présente
+### Appli site avec backend
 
 https://app-backend-site.herokuapp.com/
 
